@@ -1,0 +1,33 @@
+# Sistema e editores
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Artefatos de teste
+playwright-report/
+test-results/
+tests/artifacts/
+
+# Bases e saídas operacionais — não versionar
+*.csv
+*.txt
+ND-*.json
+BL-*.json
+nd-*.json
+bl-*.json
+*.json.gz
+*.xls
+*.xlsx
+*.pdf
+
+# Pacotes locais
+*.zip
